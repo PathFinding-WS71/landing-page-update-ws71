@@ -76,11 +76,10 @@ a.register-button {
 }
 
 .hero {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  margin: 150px 0 0 400px;
-  width: 400px;
+  margin: 150px auto 0 auto;
+  max-width: 400px;
 }
 
 a.main-register-button {
@@ -92,4 +91,16 @@ a.main-register-button {
   background-color: var(--secondary);
   color: white;
   border-radius: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero {
+    margin: 150px auto 0 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    margin: 150px auto 0 450px;
+  }
 }
