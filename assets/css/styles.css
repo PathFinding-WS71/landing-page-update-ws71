@@ -93,6 +93,21 @@ a.main-register-button {
   border-radius: 30px;
 }
 
+nav.section-nav {
+  display: flex;
+  margin: 160px auto;
+  width: 90vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav.section-nav a {
+  background-color: transparent;
+  border: none;
+  font-size: 1.01rem;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 992px) {
   .hero {
     margin: 150px auto 0 300px;
